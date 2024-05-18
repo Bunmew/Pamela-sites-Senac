@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+*{ @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap'); }
+body{
+	font-family: sans-serif;
+	font-size:12px; 
+	margin: 80px;
+	background-image: url(https://www.designi.com.br/images/preview/11011822.jpg);
+	color: white;
+
+ background-attachment: fixed;
+}
+
+
+p{
+	font-size: 1.6em; /*tamanho da fonte*/
+	text-align:justify;
+	text-indent:150px;
+	 font-family: "Gloria Hallelujah", cursive;
+
+}
+
+
+img{
+	width: 600px;
+	height:300px;
+	/*border: dotted 3px #F5DEB3; */
+	border-radius: 15%;
+	/*box-shadow:10px 10px 50px white;*/
+	/*filter: hue-rotate(190deg);*/
+	filter: grayscale(100%);
+
+}
+img:hover{
+	filter: grayscale(0%);
+	border-radius:5px;
+	transform: scale(1.01);
+	transform: rotate(5deg)
+
+}
+
+h1{
+	text-align: center;
+	font-family: "Architects Daughter", cursive;
+	text-shadow:20px 20 px 50px red, 10px 10px 20px white, 10px 5px 10px blue;
+
+}
+
+h1:hover{
+	color: red;
+}
+
+div{
+	background-color: orange;
+}
+
+div img{
+	height: 600px;
+}
+
+p b{
+	color: darkred;
+}
